@@ -221,7 +221,7 @@
     const $ = name => root.querySelector(`[data-cw="${name}"]`);
     const shapeInputs = [...root.querySelectorAll('[data-cw="shape"]')];
     const dimInputs = ['length', 'width', 'height'].map($);
-    const state = { preset: 'casserole-11x7', shape: 'rectangular', unit: 'in', dims: [11, 7.5, 2.5], setting: 1, placement: 'back' };
+    const state = { preset: 'casserole-11x7', shape: 'rectangular', unit: 'in', dims: [11, 7.5, 2.5], setting: 1, placement: 'center' };
     const fmt = inches => state.unit === 'cm' ? `${(inches * 2.54).toFixed(1)} cm` : `${(Math.round(inches * 10) / 10).toFixed(1)} in`;
     const show = inches => String(state.unit === 'cm' ? Math.round(inches * 2.54 * 10) / 10 : Math.round(inches * 100) / 100);
 
