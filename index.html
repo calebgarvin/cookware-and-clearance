@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Cookware &amp; clearance · My Solar Oven</title>
+<meta name="description" content="Check whether a pan, baking dish or Dutch oven fits in My Solar Oven, at every spot on the rack and every tilt of the oven.">
+<meta property="og:title" content="Will your cookware fit in My Solar Oven?">
+<meta property="og:description" content="Pick a common pan or enter your own size and see the room above it at every spot on the rack and every tilt.">
+<meta name="theme-color" content="#fbfaf6">
+<link rel="icon" href="icon.png" type="image/png">
+<link rel="apple-touch-icon" href="icon.png">
+<link rel="stylesheet" href="cookware-clearance.css">
+<style>
+:root{color-scheme:light dark;--bg:#fbfaf6;--ink:#1b1f1a;--line:#e4e2d9;--muted:#5a6158}
+@media (prefers-color-scheme:dark){:root{--bg:#121412;--ink:#ecefe8;--line:#30352f;--muted:#a8afa5}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;-webkit-text-size-adjust:100%}
+a{color:inherit;text-underline-offset:3px}
+.site{max-width:1080px;margin:0 auto;padding:18px 32px 0;display:flex;align-items:center;justify-content:space-between;gap:12px}
+.brand{display:flex;align-items:center;gap:10px;font-weight:700;text-decoration:none}
+.brand img{width:40px;height:40px;border-radius:9px;display:block}
+.site nav a{font-size:14px;color:var(--muted)}
+.site-foot{max-width:1016px;margin:0 auto;padding:16px 0 28px;border-top:1px solid var(--line);display:flex;flex-wrap:wrap;justify-content:space-between;gap:8px;font-size:13px;color:var(--muted)}
+.mso-cw{--cw-card:#fff;--cw-wash:#f2f1ea;--cw-halo:#f2f1ea;--cw-line:#e4e2d9;--cw-muted:#5a6158;--cw-pad-top:22px;--cw-pad-bottom:28px}
+.mso-cw .cw-heading{font-size:clamp(28px,4.2vw,40px);font-weight:750;letter-spacing:-.03em}
+@media (prefers-color-scheme:dark){.mso-cw{--cw-card:#1b1e1b;--cw-wash:#20241f;--cw-halo:#20241f;--cw-line:#30352f;--cw-muted:#a8afa5;--cw-accent:#86d466;--cw-no:#ff8a80}}
+@media (max-width:1080px){.site-foot{margin:0 32px}}
+@media (max-width:760px){.site{padding-left:16px;padding-right:16px}.site-foot{margin:0 16px}}
+/* Add ?embed to the address to hide the header and footer, for showing the page inside another site. */
+.embed .site,.embed .site-foot{display:none}
+.embed{background:transparent}
+</style>
+</head>
+<body>
+<script>if (new URLSearchParams(location.search).has('embed')) document.body.classList.add('embed');</script>
+<header class="site">
+  <a class="brand" href="https://mysolaroven.com"><img src="icon.png" alt="" width="40" height="40">My Solar Oven</a>
+  <nav><a href="https://mysolaroven.com/products/my-solar-oven">The oven</a></nav>
+</header>
+<main>
+<div class="mso-cw" data-mso-cw>
+  <div class="mso-cw-inner">
+    <header class="cw-header">
+      <h1 class="cw-heading">Cookware &amp; clearance</h1>
+      <div class="cw-intro"><p>The space inside a box solar oven isn&#x27;t a simple box. The glass slopes toward the sun, the oven tilts with the seasons, and handles and lids stick out. Here&#x27;s what decides whether your cookware fits in My Solar Oven, and a calculator to try your own.</p></div>
+    </header>
+    <div class="cw-principles">
+      <article><h3>Measure the outside</h3><p>Handles and lid knobs are usually the widest and tallest points. Measure across the handles and up to the top of the knob.</p></article>
+      <article><h3>The glass slopes</h3><p>The glass angles toward the sun, so there's more headroom at the back than the front. Tall pots go at the back.</p></article>
+      <article><h3>Tilting changes the slope</h3><p>Tilting the oven back for a low winter sun makes the slope steeper, one step at a time. You gain a little room at the back and lose more at the front.</p></article>
+      <article><h3>Check the rack's edges</h3><p>A rim along the sides limits how wide the base can be, though handles can ride above it. The front and back are open, so cookware can hang past the edge a little.</p></article>
+      <article><h3>Shape matters</h3><p>A pot is tallest at the knob in the middle, where the glass is higher, and lower at the edge of the lid. A baking dish is just as tall at its front edge, where the glass is lowest.</p></article>
+    </div>
+    <section class="cw-card" aria-labelledby="cw-title-page">
+      <div class="cw-calc-grid">
+        <form class="cw-form" data-cw="form" novalidate>
+          <h3 class="cw-h" id="cw-title-page">Try your cookware</h3>
+          <label class="cw-field">Start from a common size
+            <select data-cw="preset"><option value="">My own measurements</option></select>
+          </label>
+          <fieldset class="cw-shape">
+            <legend>What is it?</legend>
+            <label class="cw-choice"><input type="radio" name="cw-shape-page" value="rectangular" data-cw="shape" checked><span>Dish or pan</span></label>
+            <label class="cw-choice"><input type="radio" name="cw-shape-page" value="round" data-cw="shape"><span>Pot with a lid</span></label>
+          </fieldset>
+          <div class="cw-dims">
+            <label class="cw-field">Length<input data-cw="length" type="number" inputmode="decimal" min="0" step="any"></label>
+            <label class="cw-field">Width<input data-cw="width" type="number" inputmode="decimal" min="0" step="any"></label>
+            <label class="cw-field">Height<input data-cw="height" type="number" inputmode="decimal" min="0" step="any"></label>
+            <label class="cw-field">Units<select data-cw="unit"><option value="in">in</option><option value="cm">cm</option></select></label>
+          </div>
+          <p class="cw-hint" data-cw="preset-note">Outside size, handles and lid knob included.</p>
+          <p class="cw-note">All the numbers here are measured inside My Solar Oven.</p>
+        </form>
+
+        <div class="cw-results">
+          <h3 class="cw-h">Room above it in each spot</h3>
+          <p class="cw-hint">Back means slid all the way back. Rows are rear leg settings, from level to fully tilted. Tap a spot to see why.</p>
+          <div class="cw-grid" data-cw="grid" role="group" aria-label="Headroom at each rack position and tilt">
+            <span></span><span class="cw-col">Back</span><span class="cw-col">Middle</span><span class="cw-col">Front</span>
+          </div>
+          <div class="cw-legs">
+            <p class="cw-legs-title" data-cw="legs-title">Every leg setting</p>
+            <div class="cw-strip" data-cw="strip" role="group" aria-label="Rear leg settings"></div>
+            <div class="cw-scale" aria-hidden="true"><span>Level</span><span>Fully tilted</span></div>
+            <p class="cw-legs-note" data-cw="legs-note"></p>
+          </div>
+          <figure class="cw-figure">
+            <div class="cw-diagrams">
+              <div><svg viewBox="0 0 230 196" class="cw-side" data-cw="side" aria-hidden="true"></svg><span>From the side</span></div>
+              <div><svg viewBox="0 0 188 184" class="cw-top" data-cw="top" aria-hidden="true"></svg><span>From above</span></div>
+            </div>
+            <figcaption class="cw-explain" aria-live="polite">
+              <p class="cw-verdict" data-cw="verdict"></p>
+              <p class="cw-why" data-cw="why"></p>
+              <p class="cw-summary" data-cw="summary"></p>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+    <p class="cw-footnote">Try new cookware in the cold, empty oven before you cook. Sizes in the list are typical, from published specs by Pyrex, Lodge, USA Pan, Nordic Ware and Caraway, and brands vary.</p>
+  </div>
+</div>
+</main>
+<footer class="site-foot">
+  <span>Made by <a href="https://mysolaroven.com">My Solar Oven</a></span>
+  <span>Runs in your browser. No cookies or tracking.</span>
+</footer>
+<script src="cookware-clearance.js" defer></script>
+</body>
+</html>
